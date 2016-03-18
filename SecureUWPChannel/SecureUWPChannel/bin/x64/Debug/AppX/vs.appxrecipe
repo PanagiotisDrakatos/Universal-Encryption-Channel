@@ -22,13 +22,13 @@
     <AppXManifest Include="D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\SecureUWPChannel\bin\x64\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-03-18T16:32:29.581</Modified>
+      <Modified>2016-03-18T23:19:58.085</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\SecureUWPChannel\bin\x64\Debug\SecureUWPChannel.exe">
       <PackagePath>entrypoint\SecureUWPChannel.exe</PackagePath>
-      <Modified>2016-03-18T16:32:28.596</Modified>
+      <Modified>2016-03-18T23:19:57.600</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\panos\.nuget\packages\Microsoft.ApplicationInsights\1.0.0\lib\portable-win81+wpa81\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -510,11 +510,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\SecureUWPChannel\bin\x64\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-03-16T13:03:53.096</Modified>
+      <Modified>2016-03-18T23:17:18.950</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\SecureUWPChannel\bin\x64\Debug\Core\SecureUWPChannel.exe">
       <PackagePath>SecureUWPChannel.exe</PackagePath>
-      <Modified>2016-03-18T16:32:29.579</Modified>
+      <Modified>2016-03-18T23:19:58.084</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

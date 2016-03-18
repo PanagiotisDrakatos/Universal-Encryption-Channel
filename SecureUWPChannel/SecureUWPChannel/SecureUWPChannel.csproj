@@ -111,9 +111,9 @@
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Prooperties\JSonObject.cs" />
-    <Compile Include="Prooperties\JsonParse.cs" />
-    <Compile Include="Prooperties\SampleConfiguration.cs" />
+    <Compile Include="Configuration\JSonObject.cs" />
+    <Compile Include="Configuration\JsonParse.cs" />
+    <Compile Include="Configuration\SampleConfiguration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

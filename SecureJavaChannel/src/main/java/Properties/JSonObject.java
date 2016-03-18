@@ -5,7 +5,7 @@
  */
 package Properties;
 
-public class JSonObject {
+public final class JSonObject {
 
     public String EncryptedSymetricClientKey;
     public String RSAPublicKey;
@@ -17,34 +17,8 @@ public class JSonObject {
     public String fingerPrint;
     public String HmacHash;
 
-    public JSonObject(String ClientEncryptedPrimeNumber, String EncryptedSymetricClientKey) {
-        this.ClientEncryptedPrimeNumber = ClientEncryptedPrimeNumber;
-        this.EncryptedSymetricClientKey = EncryptedSymetricClientKey;
-        this.ServerPrimeNumber = "Nulls";
-        this.RSAPublicKey = "Nulls";
-        this.EncryptedMessage = "Nulls";
-        this.fingerPrint = "Nulls";
-        this.HmacHash = "Nulls";
-    }
-
-    public JSonObject(String RSAPublicKey) {
-        this.RSAPublicKey = RSAPublicKey;
-        this.EncryptedSymetricClientKey = "Nulls";
-        this.ClientEncryptedPrimeNumber = "Nulls";
-        this.ServerPrimeNumber = "Nulls";
-        this.EncryptedMessage = "Nulls";
-        this.fingerPrint = "Nulls";
-        this.HmacHash = "Nulls";
-    }
-
     public JSonObject() {
-        this.EncryptedSymetricClientKey = "Nulls";
-        this.ClientEncryptedPrimeNumber = "Nulls";
-        this.ServerPrimeNumber = "Nulls";
-        this.RSAPublicKey = "Nulls";
-        this.EncryptedMessage = "Nulls";
-        this.fingerPrint = "Nulls";
-        this.HmacHash = "Nulls";
+        Intialize();
     }
 
     public void setEncryptedSymetricClientKey(String EncryptedSymetricClientKey) {
@@ -116,11 +90,11 @@ public class JSonObject {
     }
 
     public void Intialize() {
-        this.EncryptedSymetricClientKey = "Nulls";
-        this.ClientEncryptedPrimeNumber = "Nulls";
-        this.ServerPrimeNumber = "Nulls";
-        this.RSAPublicKey = "Nulls";
-        this.EncryptedMessage = "Nulls";
-        this.fingerPrint = "Nulls";
+        this.EncryptedSymetricClientKey = "";
+        this.ClientEncryptedPrimeNumber = "";
+        this.ServerPrimeNumber = "";
+        this.RSAPublicKey = "";
+        this.EncryptedMessage = "";
+        this.fingerPrint = "";
     }
 }

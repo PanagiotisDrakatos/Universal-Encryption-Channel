@@ -33,9 +33,9 @@ namespace SecureUWPChannel
         public MainPage()
         {
             this.InitializeComponent();
-            ApplicationView.PreferredLaunchViewSize = new Size(480, 510);
+            ApplicationView.PreferredLaunchViewSize = new Size(490, 557);
             ApplicationView.PreferredLaunchWindowingMode = ApplicationViewWindowingMode.PreferredLaunchViewSize;
-            ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(480, 600));
+            ApplicationView.GetForCurrentView().SetPreferredMinSize(new Size(490, 600));
             Initiate = new IOSessionBuilder();
             CheckTaskRegistration();
         }

@@ -40,7 +40,9 @@ public final class DHkeyExchange implements IOSynAck {
     public void SendPublicKey() {
         try {
             //send PublicKey to client
-            JSonObject ObjToSend = new JSonObject(IdentityKeyPair.PublicKeyString());
+            JSonObject ObjToSend = new JSonObject();
+            ObjToSend .setRSAPublicKey(IdentityKeyPair.PublicKeyString());
+            
             String toSend = JSonParse.WriteObject(ObjToSend);
             System.out.println(toSend);
             socketChanel.SendMessage(toSend);

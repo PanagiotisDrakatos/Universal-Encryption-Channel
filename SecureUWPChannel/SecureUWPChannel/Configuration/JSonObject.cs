@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 namespace SecureUWPChannel.Serialization
 {
 
+
     public class JSonObject
     {
 
@@ -20,37 +21,9 @@ namespace SecureUWPChannel.Serialization
         public String fingerPrint;
         public String HmacHash;
 
-        public JSonObject(String ClientEncryptedPrimeNumber, String EncryptedSymetricClientKey)
-        {
-            this.ClientEncryptedPrimeNumber = ClientEncryptedPrimeNumber;
-            this.EncryptedSymetricClientKey = EncryptedSymetricClientKey;
-            this.ServerPrimeNumber = "Nulls";
-            this.RSAPublicKey = "Nulls";
-            this.EncryptedMessage = "Nulls";
-            this.fingerPrint = "Nulls";
-            this.HmacHash = "Nulls";
-        }
-
-        public JSonObject(String RSAPublicKey)
-        {
-            this.RSAPublicKey = RSAPublicKey;
-            this.EncryptedSymetricClientKey = "Nulls";
-            this.ClientEncryptedPrimeNumber = "Nulls";
-            this.ServerPrimeNumber = "Nulls";
-            this.EncryptedMessage = "Nulls";
-            this.fingerPrint = "Nulls";
-            this.HmacHash = "Nulls";
-        }
-
         public JSonObject()
         {
-            this.EncryptedSymetricClientKey = "Nulls";
-            this.ClientEncryptedPrimeNumber = "Nulls";
-            this.ServerPrimeNumber = "Nulls";
-            this.RSAPublicKey = "Nulls";
-            this.EncryptedMessage = "Nulls";
-            this.fingerPrint = "Nulls";
-            this.HmacHash = "Nulls";
+            Intialize();
         }
 
         public void setEncryptedSymetricClientKey(String EncryptedSymetricClientKey)
@@ -140,13 +113,14 @@ namespace SecureUWPChannel.Serialization
 
         public void Intialize()
         {
-            this.EncryptedSymetricClientKey = "Nulls";
-            this.ClientEncryptedPrimeNumber = "Nulls";
-            this.ServerPrimeNumber = "Nulls";
-            this.RSAPublicKey = "Nulls";
-            this.EncryptedMessage = "Nulls";
-            this.fingerPrint = "Nulls";
+            this.EncryptedSymetricClientKey = "";
+            this.ClientEncryptedPrimeNumber = "";
+            this.ServerPrimeNumber = "";
+            this.RSAPublicKey = "";
+            this.EncryptedMessage = "";
+            this.fingerPrint = "";
         }
     }
+
 }
 

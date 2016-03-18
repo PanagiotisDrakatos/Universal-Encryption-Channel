@@ -13,7 +13,7 @@ namespace SecureUWPChannel.Cryptography
         public String SessionKey
         {
             get { return Sessionkey; }
-            set { Sessionkey = value; }
+            set { Sessionkey = value; }//set get methods to retrieve DΗSessionKey
         }
 
         public DHSessionkey() {
