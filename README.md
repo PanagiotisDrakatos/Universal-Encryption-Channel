@@ -6,8 +6,7 @@ Universal Encryption Channel aims at providing an easy-to-use <b>Cross Platform<
 <h1>Diffie-Hellman Key Exchange</h1>
 
 <p>This photo is made in <a href="https://products.office.com/el-gr/visio/flowchart-software">Microsoft Visio 2013</a>
-and it describes the key exchanges over the Server-Client program. It describes exactly with details how 
-both applications they begin to share keys and also how they try to ensure the model designed to guide policies for information security within an organization,the well known as <b>CIA(Confidentiality,Integrity,Availability)</b></p>
+and it describes the key exchanges over the Server-Client program. It describes exactly with details how both applications they encrypt and decrypt the message and share the public Random number until they will get the Diffie-hellman Key exchange and also how they try to ensure the model designed to guide policies for information security within an organization,the well known as <b>CIA(Confidentiality,Integrity,Availability)</b></p>
 
 <h4>Confidentiality</h4>
 <p>is roughly equivalent to <a href="https://en.wikipedia.org/wiki/Privacy">privacy</a>. Measures undertaken to ensure confidentiality are designed to prevent sensitive information from reaching the wrong people, while making sure that the right people can in fact get it: Access must be restricted to those authorized to view the data in question. It is common, as well, for data to be categorized according to the amount and type of damage that could be done should it fall into unintended hands.</p>
