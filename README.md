@@ -42,7 +42,7 @@ both applications they begin to share keys and also how they try to ensure the m
 
 <p>Now go to your build.gradle file (or equivalent) and make sure you add:</p>
 
-```
+```java
 apply plugin: 'maven' 
 ```
 ---
@@ -53,7 +53,7 @@ apply plugin: 'maven'
 
 <p>Then go to dependencies and add in:</p>
 
-```
+```Java
 dependencies {
     // TODO: Add dependencies here ...
     // You can read more about how to add dependency here:
