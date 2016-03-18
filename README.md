@@ -20,7 +20,7 @@ both applications they begin to share keys and also how they try to ensure the m
 
 <p><a href="https://en.wikipedia.org/wiki/Availability">Availability</a> is best ensured by rigorously maintaining all hardware, performing hardware repairs immediately when needed and maintaining a correctly functioning operating system environment that is free of software conflicts. It’s also important to keep current with all necessary system upgrades.</p>
 
-![alt tag](https://github.com/stathmarxis/Testiong-Repo/blob/master/DH_RSA.PNG)
+![alt tag](https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/DH_RSA.PNG)
 
 <h1>How do I use this library with Gradle</h1>
 
