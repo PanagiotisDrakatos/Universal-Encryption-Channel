@@ -1,0 +1,2 @@
+D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\RuntimeComponent2\RuntimeComponent2.csproj;x64
+D:\Έγγαφα\Visual Studio 2015\Projects\SecureUWPChannel\SecureUWPChannel\SecureUWPChannel.csproj;x64
