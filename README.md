@@ -22,9 +22,9 @@ both applications they begin to share keys and also how they try to ensure the m
 
 ![alt tag](https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/DH_RSA.PNG)
 
-<h1>How do I use this library with Gradle</h1>
+<h1>How do I use this library?</h1>
 
-<h2> Java requirements</h2>
+<h2> Java requirements with Gradle</h2>
 <p>For now you get to build this yourself. Eventually, when it has enough testing, I might consider publishing it to some maven repository.</p>
 
 <ol>
