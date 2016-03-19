@@ -15,7 +15,7 @@ each other.</p>
 <h1>Diffie-Hellman Key Exchange</h1>
 
 <p>This photo is made in <a href="https://products.office.com/el-gr/visio/flowchart-software">Microsoft Visio 2013</a>
-and it describes the key exchanges over the Server-Client program(for better explanation with code check here <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureJavaChannel/src/main/java/Handshake/DHkeyExchange.java">DHkeyExchange<a/>). It describes exactly with details how both applications they encrypt and decrypt the message and share the public Random number until they will get the Diffie-hellman Key exchange and also how they try to ensure the model designed to guide policies for information security within an organization,the well known as <b>CIA(Confidentiality,Integrity,Availability)</b></p>
+and it describes the key exchanges over the Server-Client program(for better explanation with code check <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureJavaChannel/src/main/java/Handshake/DHkeyExchange.java">DHkeyExchange<a/>). It describes exactly with details how both applications they encrypt and decrypt the message and share the public Random number until they will get the Diffie-hellman Key exchange and also how they try to ensure the model designed to guide policies for information security within an organization,the well known as <b>CIA(Confidentiality,Integrity,Availability)</b></p>
 
 <h4>Confidentiality</h4>
 <p>is roughly equivalent to <a href="https://en.wikipedia.org/wiki/Privacy">privacy</a>. Measures undertaken to ensure confidentiality are designed to prevent sensitive information from reaching the wrong people, while making sure that the right people can in fact get it: Access must be restricted to those authorized to view the data in question. It is common, as well, for data to be categorized according to the amount and type of damage that could be done should it fall into unintended hands.</p>
@@ -115,7 +115,7 @@ dependencies {
 </ul>
 
 <h3>Configuration File</h3>
-<p>navigate to <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureUWPChannel/SecureUWPChannel/Configuration/SampleConfiguration.cs">SampleConfiguration<a/> and change Host to localhost if you are going to run the project locally or put the remote local ip which the server machine with the java code has obtain from the router (For example 192.168.1.2)</p>
+<p>Navigate to <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureUWPChannel/SecureUWPChannel/Configuration/SampleConfiguration.cs">SampleConfiguration<a/> and change Host to localhost if you are going to run the project locally or put the remote local ip which the server machine with the java code has obtain from the router (For example 192.168.1.2)</p>
 
 ```c#
 //socket properties
@@ -128,7 +128,7 @@ dependencies {
 
 <h2>Deploying and running the sample on a Windows 10 Phone</h2>
 
-<p>this is not available on Windows Phone. basically this api is not tested in windows phone yet very soon i will publish and new version which it will support windows 10 phones stay tuned in the repository and don't forget to contribute with a simple click Fork</p>
+<p>This is not available on Windows Phone. basically this api is not tested in windows phone yet very soon i will publish and new version which it will support windows 10 phones stay tuned in the repository and don't forget to contribute with a simple click Fork</p>
 
 <h2>Windows 10 IoT Core</h2>
 <p>This api Platform  have not been validated on Windows IoT Core very soon i will publish and new version which it will support Raspberry Pi 2 stay tuned in the repository</p>
