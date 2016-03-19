@@ -3,6 +3,15 @@
 Universal Encryption Channel aims at providing an easy-to-use <b>Cross Platform</b> API which allow an encrypted  communication over sockets across server-client program. It provides the opportunity to client from Windows-Universal-Application  to interact with a server written in pure java and send and receive encrypted messages with the `DHE-RSA` key exchange
 <p></p>
 
+<h2>Why Use this repo?</h2>
+<p>There are plenty reasons to use this library. At the beginning the most important factor is the supply sockets compatibility with 2 different platform through a secure channel with encryption and very soon it will be added more platforms just like a client code written in python script and an android client application,but the last is very widespread and there are many projects with java and android these days so it will not be so innovative.</p>
+<p>Lets see and analyzing what are the useful things to use this repository and you might not think.</p>
+
+1. <p>You can use a server which follows the RFC1459 protocol and allows many common IRC clients to connect simultaneously and securely and interact with
+each other.</p>
+2. <p>You may already have a server written in java which control with sockets android clients and you may want with some way to add more clients that supported in windows applications just like Universal Windows Applications</p>
+3. <p>Security - if your client apps can connect to Server through sockets so anyone else can steal if you're not careful about sensitive data. Data can also be sniffed if you're not encrypting, and modified if you're not at least signing data. That is one of the common things that many apps does not provide to clients.</p>
+
 <h1>Diffie-Hellman Key Exchange</h1>
 
 <p>This photo is made in <a href="https://products.office.com/el-gr/visio/flowchart-software">Microsoft Visio 2013</a>
