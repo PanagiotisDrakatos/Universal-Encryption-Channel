@@ -114,6 +114,18 @@ dependencies {
 <li>To debug the sample and then run it, press F5 or use <strong>Debug</strong> &gt; <strong>Start Debugging</strong>. To run the sample without debugging, press Ctrl+F5 or use <strong>Debug</strong> &gt; <strong>Start Without Debugging</strong>.</li>
 </ul>
 
+<h3>Configuration File</h3>
+<p>navigate to <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureUWPChannel/SecureUWPChannel/Configuration/SampleConfiguration.cs">SampleConfiguration<a/> and change Host to localhost if you are going to run the project locally or put the remote local ip which the server machine with the java code has obtain from the router (For example 192.168.1.2)</p>
+
+```c#
+//socket properties
+        public static  String ConnectionPort = "5555";
+        public static  int MaxConnections = 100;
+        public static  int timeout = 4000;
+        public static String Host = "localhost";
+```
+---
+
 <h2>Deploying and running the sample on a Windows 10 Phone</h2>
 
 <p>this is not available on Windows Phone. basically this api is not tested in windows phone yet very soon i will publish and new version which it will support windows 10 phones stay tuned in the repository and don't forget to contribute with a simple click Fork</p>
