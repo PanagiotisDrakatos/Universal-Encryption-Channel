@@ -18,7 +18,6 @@ namespace SecureUWPChannel.Prooperties
         public static String Host = "localhost";
 
         //encryption properties  
-        public static String DefaultCAkey = "s/L6D2CgMQ+qDKCJ6FjZ/w==";//Certificate from Trusted ca
         public static String strSecret = "PutAStrongPassword";
         public static String MacAlg = MacAlgorithmNames.HmacSha256;
 
