@@ -12,7 +12,7 @@ public class Properties {
    public static final String PlainText_UTF8 = "Hello Client Send me again Enrypted Message";
     
     //encryption properties  
-    public static String DefaultCAkey = "s/L6D2CgMQ+qDKCJ6FjZ/w==";//key from Trusted ca
+   
 
     //for more info check https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange
     //g^x mod p 
