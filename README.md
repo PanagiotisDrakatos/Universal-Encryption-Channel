@@ -4,7 +4,7 @@ Universal Encryption Channel aims at providing an easy-to-use <b>Cross Platform<
 <p></p>
 
 <h2>Why Use this repo?</h2>
-<p>There are plenty reasons to use this library. At the beginning the most important factor is the supply sockets compatibility with 2 different platform through a secure channel with encryption and very soon it will be added more platforms just like a client code written in python script and an android client application,but the last is very widespread and there are many projects with java and android these days so it will not be so innovative.</p>
+<p>There are plenty reasons to use this library. The most important factor is the supply socket compatibility between the 2 different platforms through a secure channel with encryption. Very soon more platforms will be added like a client code written in python script and an android client application, however the last one is very widespread and there are many projects  these days so it will not be so innovative.</p>
 <p>Lets see and analyzing what are the useful things to use this repository and you might not think.</p>
 
 1. <p>You can use a server which follows the RFC1459 protocol and allows many common IRC clients to connect simultaneously and securely and interact with
@@ -138,5 +138,5 @@ dependencies {
 
 <p>For more information about Windows 10 IoT Core, see  online documentation <a href="http://windowsondevices.com">here</a></p>
 
-<p>Please download, build, deploy, and contribute!! For more information and descriptions about this sample  you should feel free to create an issue and ask question and i will reply in my earliest convenience and don't forget to Fork the repository and upload whatever you want tha it will be helpful for this project.</p>
+<p>Please download, build, deploy, and contribute!! For more information and descriptions about this sample  you should feel free to create an issue and ask question and I will reply you as soon as possible and don't forget to Fork the repository and upload whatever you want that it will be helpful for this project.</p>
 
