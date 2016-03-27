@@ -4,7 +4,7 @@ Universal Encryption Channel aims at providing an easy-to-use <b>Cross Platform<
 <p></p>
 
 <h2>Why Use this repo?</h2>
-<p>There are plenty reasons to use this library. The most important factor is the supply socket compatibility between the 2 different platforms through a secure channel with encryption. Very soon more platforms will be added like a client code written in python script and an android client application, however the last one is very widespread and there are many projects  these days so it will not be so innovative.</p>
+<p>There are plenty reasons to use this library. The most important factor is the supply socket compatibility between the 2 different platforms through a secure channel with encryption. Very soon more platforms will be added like a client code written in python script and an android client application, however the last one is very widespread and there are many open source projects with Security-encryptions for android  these days so it will not be so innovative.</p>
 <p>Lets see and analyzing what are the useful things to use this repository and you might not think.</p>
 
 1. <p>You can use a server which follows the RFC1459 protocol and allows many common IRC clients to connect simultaneously and securely and interact with
@@ -76,6 +76,26 @@ dependencies {
 }
 ```
 ---
+<h3>Properties File</h3>
+<p>Navigate to properties file <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureJavaChannel/src/main/java/Properties/Properties.java">Properties</a> and you will see all Properties which the application uses also you can put whatever you want for the message which you will  send it to the Client.</p>
+
+```Java
+package Properties;
+
+public class Properties {
+
+    //socket properties
+    public static final int ConnectionPort = 5555;
+    public static final int MaxConnections = 100;
+    public static final int timeout = 10 * 1000;
+
+    public static final String END_PROTOCOL = "EndSession";
+    //Put your message which you want taken from Server
+   public static final String PlainText_UTF8 = "Hello Client Send me again Enrypted Message";
+   }
+```
+---
+
 <h3>Install the unlimited strength policy files</h3>
 <p>The correct solution to run the Java server is that you must take consider to install <a href="http://www.oracle.com/technetwork/java/javase/downloads/jce8-download-2133166.html">unlimited strength policy files<a/>. While this is probably the right solution for your development, it quickly becomes a major hassle (if not a roadblock) to have non-technical users install the files on every computer. There is no way to distribute the files with your program. You must be installed in the JRE directory (which may even be read-only due to permissions) to run this application also you will have the opportunity to set your owns key size because for testing purposes the application does not provide big keys size.</p>
 
@@ -115,7 +135,7 @@ dependencies {
 </ul>
 
 <h3>Configuration File</h3>
-<p>Navigate to <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureUWPChannel/SecureUWPChannel/Configuration/SampleConfiguration.cs">SampleConfiguration<a/> and change Host to localhost if you are going to run the project locally or put the remote local ip which the server machine with the java code has obtain from the router (For example 192.168.1.2)</p>
+<p>Navigate to <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureUWPChannel/SecureUWPChannel/Configuration/SampleConfiguration.cs">SampleConfiguration<a/> and change Host to localhost if you are going to run the project locally or put the remote local ip which the server machine with the java code has obtain from the router (For example 192.168.1.2).Also you can put whatever you want for the message which you will  send it to the server</p>
 
 ```c#
 //socket properties
@@ -123,6 +143,9 @@ dependencies {
         public static  int MaxConnections = 100;
         public static  int timeout = 4000;
         public static String Host = "localhost";
+        
+        //Put your Message to send to server
+        public static String Messages = "Hello Server :D";
 ```
 ---
 
