@@ -77,7 +77,7 @@ dependencies {
 ```
 ---
 <h3>Properties File</h3>
-<p>Navigate to properties file <a href="https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/SecureJavaChannel/src/main/java/Properties/Properties.java">Properties</a> and you will see all Properties which the application uses also you can put whatever you want for the message which you will  send it to the Client.</p>
+<p>Navigate to properties file Properties and you will see all Properties which the application uses also you can put whatever you want for the message which you will receive it from the server.</p>
 
 ```Java
 package Properties;
