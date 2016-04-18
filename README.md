@@ -59,7 +59,7 @@ apply plugin: 'maven'
 
 <div class="highlight highlight-source-groovy"><pre>mavenLocal()</pre></div>
 
-<p>Then go to dependencies and add in:</p>
+<p>Then go to dependencies and add in: </p>
 
 ```Java
 dependencies {
