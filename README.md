@@ -28,7 +28,7 @@ and it describes the key exchanges over the Server-Client program(for better exp
 
 <p><a href="https://en.wikipedia.org/wiki/Availability">Availability</a> is best ensured by rigorously maintaining all hardware, performing hardware repairs immediately when needed and maintaining a correctly functioning operating system environment that is free of software conflicts. It’s also important to keep current with all necessary system upgrades.</p>
 
-![alt tag](https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/Protocol.PNG)
+![alt tag](https://github.com/PanagiotisDrakatos/Universal-Encryption-Channel/blob/master/DHProtocol.PNG)
 
 <h1>How do I use this library?</h1>
 
