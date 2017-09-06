@@ -7,8 +7,7 @@ Universal Encryption Channel aims at providing an easy-to-use <b>Cross Platform<
 <p>There are plenty reasons to use this library. The most important factor is the supply socket compatibility between the 2 different platforms through a secure channel with encryption. Very soon more platforms will be added like a client code written in python script and an android client application, however the last one is very widespread and there are many open source projects with Security-encryptions for android  these days so it will not be so innovative.</p>
 <p>Lets see and analyzing what are the useful things to use this repository and you might not think.</p>
 
-1. <p>You can use a server which follows the RFC1459 protocol and allows many common IRC clients to connect simultaneously and securely and interact with
-each other.</p>
+1. <p>You can use a server which follows the RFC1459 protocol and allows many common IRC clients to connect simultaneously and securely and interact with each other.</p>
 2. <p>You may already have a server written in java which control with sockets android clients and you may want with some way to add more clients that supported in windows applications just like Universal Windows Applications</p>
 3. <p>Security - if your client apps can connect to Server through sockets so anyone else can steal if you're not careful about sensitive data. Data can also be sniffed if you're not encrypting, and modified if you're not at least signing data. That is one of the common things that many apps does not provide to clients.</p>
 
